@@ -1,0 +1,3 @@
+python-liquid
+google-cloud-bigquery
+pymongo

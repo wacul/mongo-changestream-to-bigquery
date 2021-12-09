@@ -1,0 +1,15 @@
+timeField: _timestamp
+incrementField: _counter
+inputMode: merge
+
+mongodb:
+  uri: mongodb://localhost:27017
+  db: mongodb
+  collection: users
+
+bigquery:
+  json_keyfile: secret/keyfile.json
+  project: project_name
+  dataset: dataset_name
+  table: table_name
+  schema_file: data/schema.json
